@@ -11,15 +11,22 @@
     
 
     
-    <meta name="description" content="学习总结 思考感悟 知识管理 交流互进">
-<meta property="og:type" content="website">
+    <meta name="description" content="##less语法简介及使用方法
+###什么是LESS　　LESS是一种动态样式语言，属于CSS预处理语言的一种，它使用类似CSS的语法，为CSS的赋予了动态语言的特性，如变量、继承、运算、函数等，更方便CSS的编写和维护。LESS可以在多种语言、环境中使用，包括浏览器端、桌面客户端、服务端。
+###Less的配置Less既可以在客户端上运行（支持IE6+，Webkit,Firefox），也可以借助">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Arley Joe's Blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/2016/02/14/LESS语法简单介绍/index.html">
 <meta property="og:site_name" content="Arley Joe's Blog">
-<meta property="og:description" content="学习总结 思考感悟 知识管理 交流互进">
+<meta property="og:description" content="##less语法简介及使用方法
+###什么是LESS　　LESS是一种动态样式语言，属于CSS预处理语言的一种，它使用类似CSS的语法，为CSS的赋予了动态语言的特性，如变量、继承、运算、函数等，更方便CSS的编写和维护。LESS可以在多种语言、环境中使用，包括浏览器端、桌面客户端、服务端。
+###Less的配置Less既可以在客户端上运行（支持IE6+，Webkit,Firefox），也可以借助">
+<meta property="og:updated_time" content="2016-02-14T09:51:26.030Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Arley Joe's Blog">
-<meta name="twitter:description" content="学习总结 思考感悟 知识管理 交流互进">
+<meta name="twitter:description" content="##less语法简介及使用方法
+###什么是LESS　　LESS是一种动态样式语言，属于CSS预处理语言的一种，它使用类似CSS的语法，为CSS的赋予了动态语言的特性，如变量、继承、运算、函数等，更方便CSS的编写和维护。LESS可以在多种语言、环境中使用，包括浏览器端、桌面客户端、服务端。
+###Less的配置Less既可以在客户端上运行（支持IE6+，Webkit,Firefox），也可以借助">
 
     
     <link rel="alternative" href="/atom.xml" title="Arley Joe&#39;s Blog" type="application/atom+xml">
@@ -77,12 +84,10 @@
 </div>
     </header>
     <div id="container">
-      <div id="main">
-
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
   <h1 itemprop="name">
     
       <a href="/2016/02/14/LESS语法简单介绍/" title="" itemprop="url"></a>
@@ -96,9 +101,16 @@
     
   </p>
 </header>
-    <div class="article-content">
-        
-        <p>##less语法简介及使用方法</p>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+			
+		
+		</div>
+		
+		<p>##less语法简介及使用方法</p>
 <p>###什么是<a href="http://www.1024i.com/demo/less/" target="_blank" rel="external">LESS</a><br>　　LESS是一种动态样式语言，属于CSS预处理语言的一种，它使用类似CSS的语法，为CSS的赋予了动态语言的特性，如变量、继承、运算、函数等，更方便CSS的编写和维护。LESS可以在多种语言、环境中使用，包括浏览器端、桌面客户端、服务端。</p>
 <p>###Less的配置<br>Less既可以在客户端上运行（支持IE6+，Webkit,Firefox），也可以借助Node.js或者Rhino在服务器端运行。<br>(1)运行方式1：在客户端运行Less转换程序——了解<br>　在HTML中引入xx.less，同时再引入一个less.js——就是一个可以运行在客户端浏览器中的less编译程序。——效率太低，不推荐使用。<br>(2)运行方式2：在服务器端运行less转换程序——推荐<br>步骤：<br>　1）下载并安装一款服务器端的JS解释器——<a href="https://nodejs.org/en/" target="_blank" rel="external">NodeJS</a>或者Rhino<br>　2）下载less文件的转换程序：(<a href="https://github.com/duncansmart/less.js-windows/releases" target="_blank" rel="external">less-Compiler</a>)——  一个js脚本<br>(3)    在服务器端JS解释器中运行lessc转换器，把自己编写的.less文件转换为.css文件。<br>A．    方式1：可以在命令行中使用转换程序  </p>
 <blockquote>
@@ -130,14 +142,9 @@
 <p>语法：<br>　　@import “xx.less”；<br>　　@import  “yy”；  .less后缀可以省略  </p>
 </blockquote>
 <p>　　本文只是针对LESS常用做了基础的简单介绍，更多的请参见官方网站文档：官方网站链接：<a href="http://www.1024i.com/demo/less/" target="_blank" rel="external">http://www.1024i.com/demo/less/</a></p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
+  
+	</div>
+		<footer class="article-footer clearfix">
 <div class="article-catetags">
 
 <div class="article-categories">
@@ -155,175 +162,47 @@
 
 
 
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://yoursite.com/2016/02/14/LESS语法简单介绍/" data-title="Arley Joe&#39;s Blog" data-tsina="2806985010" class="share clearfix">
+	  </div>
+	
+	</div>
 
-<div class="comments-count">
-	
-	  	<span></span>
-		<a href="/2016/02/14/LESS语法简单介绍/#comments" class="ds-thread-count comments-count-link" data-thread-key="2016/02/14/LESS语法简单介绍/" data-count-type="comments">&nbsp;</a>
-	
-</div>
 
 </footer>
 
-
-    </article>
-
-
-
-
-
-
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2016/02/05/解决CSS中height设为百分比如何起效的方法/" title="解决CSS中height设为百分比如何起效的方法" itemprop="url">解决CSS中height设为百分比如何起效的方法</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Arley Joe" target="_blank" itemprop="author">Arley Joe</a>
-		
-  <p class="article-time">
-    <time datetime="2016-02-05T02:34:14.000Z" itemprop="datePublished"> 发表于 2016-02-05</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <p>##如何设height:百分比；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在CSS中很多的时间为了实现页面的特定效果以及更多时间为了进行类响应式的布局，以达到在不同的屏幕下显示不同的效果，此时更多的会使用百分比的方式来操作。其中width设为百分比后，客户端会根据用户屏幕的实际宽度自动的进行计算，但是在设置height:**%;的方式来操作，但是页面并没有显示。解决该问题的方法很简单，就是给他的父元素也设置百分比的高度，直到html根元素设为：height:100%;代码如下：</p>
-<pre><code>&lt;!DOCTYPE HTML&gt;
-&lt;html&gt;
-    &lt;head&gt;
-        &lt;meta charset=&quot;UTF-8&quot;/&gt;
-        &lt;title&gt;Document&lt;/title&gt;
-        &lt;script&gt;&lt;/script&gt;
-        &lt;style&gt;
-            html,body{
-                width : 100%;
-                height : 100%;
-            }
-            div.d1{
-                width : 100%;
-                height : 20%;
-                border : 1px soli #000;
-                background-color : yellow;
-            }
-        &lt;/style&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div class=d1&gt;This is a test text!&lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-</code></pre><p>以上只是一个我经常用到的小技巧，如果还有别的请留言交流。</p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-<div class="article-categories">
-  <span></span>
-  <a class="article-category-link" href="/categories/CSS/">CSS</a>
-</div>
-
-
-  <div class="article-tags">
-  
-  <span></span> <a href="/tags/css-height/">css height</a>
-  </div>
-
-</div>
-
-
-
-
-<div class="comments-count">
+   	       
+	</article>
 	
-	  	<span></span>
-		<a href="/2016/02/05/解决CSS中height设为百分比如何起效的方法/#comments" class="ds-thread-count comments-count-link" data-thread-key="2016/02/05/解决CSS中height设为百分比如何起效的方法/" data-count-type="comments">&nbsp;</a>
+<nav class="article-nav clearfix">
+ 
+
+<div class="next">
+<a href="/2016/02/05/解决CSS中height设为百分比如何起效的方法/"  title="解决CSS中height设为百分比如何起效的方法">
+ <strong>下一篇：</strong><br/> 
+ <span>解决CSS中height设为百分比如何起效的方法
+</span>
+</a>
+</div>
+
+</nav>
+
 	
-</div>
-
-</footer>
-
-
-    </article>
+<section id="comments" class="comment">
+	<div class="ds-thread" data-thread-key="2016/02/14/LESS语法简单介绍/" data-title="" data-url="http://yoursite.com/2016/02/14/LESS语法简单介绍/"></div>
+</section>
 
 
-
-
-
-
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2016/02/05/hello-world/" title="Hello World" itemprop="url">Hello World</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Arley Joe" target="_blank" itemprop="author">Arley Joe</a>
-		
-  <p class="article-time">
-    <time datetime="2016-02-05T02:25:49.900Z" itemprop="datePublished"> 发表于 2016-02-05</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start"><a href="#Quick_Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create_a_new_post"><a href="#Create_a_new_post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server"><a href="#Run_server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files"><a href="#Generate_static_files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites"><a href="#Deploy_to_remote_sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-	  	<span></span>
-		<a href="/2016/02/05/hello-world/#comments" class="ds-thread-count comments-count-link" data-thread-key="2016/02/05/hello-world/" data-count-type="comments">&nbsp;</a>
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
-
-</div>
+</div>  
       <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+ 
+ 
+ 
+  </div>
 
 <div id="asidepart">
 <div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
@@ -481,6 +360,11 @@ $(document).ready(function(){
     o.css("top",Math.max(80,260-$(this).scrollTop()));
   });
   
+        getSize();
+        if (myWidth >= 1024) {
+          c.click();
+        }
+  
   $(window).resize(function(){
     getSize(); 
     if (myWidth >= 1024) {
@@ -489,14 +373,103 @@ $(document).ready(function(){
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
         
     }
   });
 });
 </script>
 
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
 
 
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});   
+</script>
+
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"arleyjoe"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
 
 
 
@@ -565,4 +538,4 @@ var _hmt = _hmt || [];
 <!-- Tiny_search End -->
 
   </body>
- </html>
+</html>
