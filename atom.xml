@@ -4,7 +4,7 @@
   <subtitle><![CDATA[听雨轩]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-02-14T09:55:03.723Z</updated>
+  <updated>2016-02-14T10:00:21.474Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,11 +15,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title><![CDATA[less语法简介及使用方法]]></title>
     <link href="http://yoursite.com/2016/02/14/LESS%E8%AF%AD%E6%B3%95%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D/"/>
     <id>http://yoursite.com/2016/02/14/LESS语法简单介绍/</id>
     <published>2016-02-14T08:19:00.000Z</published>
-    <updated>2016-02-14T09:55:03.723Z</updated>
+    <updated>2016-02-14T10:00:21.474Z</updated>
     <content type="html"><![CDATA[<h2 id="less_u8BED_u6CD5_u7B80_u4ECB_u53CA_u4F7F_u7528_u65B9_u6CD5"><a href="#less_u8BED_u6CD5_u7B80_u4ECB_u53CA_u4F7F_u7528_u65B9_u6CD5" class="headerlink" title="less语法简介及使用方法"></a>less语法简介及使用方法</h2><h3 id="u4EC0_u4E48_u662FLESS"><a href="#u4EC0_u4E48_u662FLESS" class="headerlink" title="什么是LESS"></a>什么是<a href="http://www.1024i.com/demo/less/" target="_blank" rel="external">LESS</a></h3><p>　　LESS是一种动态样式语言，属于CSS预处理语言的一种，它使用类似CSS的语法，为CSS的赋予了动态语言的特性，如变量、继承、运算、函数等，更方便CSS的编写和维护。LESS可以在多种语言、环境中使用，包括浏览器端、桌面客户端、服务端。</p>
 <h3 id="Less_u7684_u914D_u7F6E"><a href="#Less_u7684_u914D_u7F6E" class="headerlink" title="Less的配置"></a>Less的配置</h3><p>Less既可以在客户端上运行（支持IE6+，Webkit,Firefox），也可以借助Node.js或者Rhino在服务器端运行。<br>(1)运行方式1：在客户端运行Less转换程序——了解<br>　在HTML中引入xx.less，同时再引入一个less.js——就是一个可以运行在客户端浏览器中的less编译程序。——效率太低，不推荐使用。<br>(2)运行方式2：在服务器端运行less转换程序——推荐<br>步骤：<br>　1）下载并安装一款服务器端的JS解释器——<a href="https://nodejs.org/en/" target="_blank" rel="external">NodeJS</a>或者Rhino<br>　2）下载less文件的转换程序：(<a href="https://github.com/duncansmart/less.js-windows/releases" target="_blank" rel="external">less-Compiler</a>)——  一个js脚本<br>(3)    在服务器端JS解释器中运行lessc转换器，把自己编写的.less文件转换为.css文件。<br>A．    方式1：可以在命令行中使用转换程序  </p>
 <blockquote>
