@@ -4,7 +4,7 @@
   <subtitle><![CDATA[听雨轩]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-02-14T09:51:26.030Z</updated>
+  <updated>2016-02-14T09:55:03.723Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,10 +19,9 @@
     <link href="http://yoursite.com/2016/02/14/LESS%E8%AF%AD%E6%B3%95%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D/"/>
     <id>http://yoursite.com/2016/02/14/LESS语法简单介绍/</id>
     <published>2016-02-14T08:19:00.000Z</published>
-    <updated>2016-02-14T09:51:26.030Z</updated>
-    <content type="html"><![CDATA[<p>##less语法简介及使用方法</p>
-<p>###什么是<a href="http://www.1024i.com/demo/less/" target="_blank" rel="external">LESS</a><br>　　LESS是一种动态样式语言，属于CSS预处理语言的一种，它使用类似CSS的语法，为CSS的赋予了动态语言的特性，如变量、继承、运算、函数等，更方便CSS的编写和维护。LESS可以在多种语言、环境中使用，包括浏览器端、桌面客户端、服务端。</p>
-<p>###Less的配置<br>Less既可以在客户端上运行（支持IE6+，Webkit,Firefox），也可以借助Node.js或者Rhino在服务器端运行。<br>(1)运行方式1：在客户端运行Less转换程序——了解<br>　在HTML中引入xx.less，同时再引入一个less.js——就是一个可以运行在客户端浏览器中的less编译程序。——效率太低，不推荐使用。<br>(2)运行方式2：在服务器端运行less转换程序——推荐<br>步骤：<br>　1）下载并安装一款服务器端的JS解释器——<a href="https://nodejs.org/en/" target="_blank" rel="external">NodeJS</a>或者Rhino<br>　2）下载less文件的转换程序：(<a href="https://github.com/duncansmart/less.js-windows/releases" target="_blank" rel="external">less-Compiler</a>)——  一个js脚本<br>(3)    在服务器端JS解释器中运行lessc转换器，把自己编写的.less文件转换为.css文件。<br>A．    方式1：可以在命令行中使用转换程序  </p>
+    <updated>2016-02-14T09:55:03.723Z</updated>
+    <content type="html"><![CDATA[<h2 id="less_u8BED_u6CD5_u7B80_u4ECB_u53CA_u4F7F_u7528_u65B9_u6CD5"><a href="#less_u8BED_u6CD5_u7B80_u4ECB_u53CA_u4F7F_u7528_u65B9_u6CD5" class="headerlink" title="less语法简介及使用方法"></a>less语法简介及使用方法</h2><h3 id="u4EC0_u4E48_u662FLESS"><a href="#u4EC0_u4E48_u662FLESS" class="headerlink" title="什么是LESS"></a>什么是<a href="http://www.1024i.com/demo/less/" target="_blank" rel="external">LESS</a></h3><p>　　LESS是一种动态样式语言，属于CSS预处理语言的一种，它使用类似CSS的语法，为CSS的赋予了动态语言的特性，如变量、继承、运算、函数等，更方便CSS的编写和维护。LESS可以在多种语言、环境中使用，包括浏览器端、桌面客户端、服务端。</p>
+<h3 id="Less_u7684_u914D_u7F6E"><a href="#Less_u7684_u914D_u7F6E" class="headerlink" title="Less的配置"></a>Less的配置</h3><p>Less既可以在客户端上运行（支持IE6+，Webkit,Firefox），也可以借助Node.js或者Rhino在服务器端运行。<br>(1)运行方式1：在客户端运行Less转换程序——了解<br>　在HTML中引入xx.less，同时再引入一个less.js——就是一个可以运行在客户端浏览器中的less编译程序。——效率太低，不推荐使用。<br>(2)运行方式2：在服务器端运行less转换程序——推荐<br>步骤：<br>　1）下载并安装一款服务器端的JS解释器——<a href="https://nodejs.org/en/" target="_blank" rel="external">NodeJS</a>或者Rhino<br>　2）下载less文件的转换程序：(<a href="https://github.com/duncansmart/less.js-windows/releases" target="_blank" rel="external">less-Compiler</a>)——  一个js脚本<br>(3)    在服务器端JS解释器中运行lessc转换器，把自己编写的.less文件转换为.css文件。<br>A．    方式1：可以在命令行中使用转换程序  </p>
 <blockquote>
 <p>Node.exe  lessc  my.less my.css   </p>
 </blockquote>
@@ -31,7 +30,7 @@
 <p>打开webstrom&gt;&gt;settings&gt;&gt;Tools&gt;&gt;File Watchers&gt;&gt;点击左边“+”号&gt;&gt;选择“Less”&gt;&gt;Program:”填写下载的 <strong>lessc.cmd</strong> 文件的路径”&gt;&gt;完成</p>
 </blockquote>
 <p>(4)    继续编写HTML文件，引用编译的到的.css文件即可。</p>
-<p>###less语法简单介绍<br>1）Less完全支持CSS语法<br>2）Less支持单行和多行注释，只有多行注释会被转换到CSS文件中。<br>3）less支持变量（Variable）  </p>
+<h3 id="less_u8BED_u6CD5_u7B80_u5355_u4ECB_u7ECD"><a href="#less_u8BED_u6CD5_u7B80_u5355_u4ECB_u7ECD" class="headerlink" title="less语法简单介绍"></a>less语法简单介绍</h3><p>1）Less完全支持CSS语法<br>2）Less支持单行和多行注释，只有多行注释会被转换到CSS文件中。<br>3）less支持变量（Variable）  </p>
 <blockquote>
 <p>语法：@变量名：值；<br>使用：选择器 { 样式：@变量名；}<br>@primary-black:#000;<br>div.container{color:@primary-black;}</p>
 </blockquote>
@@ -54,8 +53,7 @@
 <p>　　本文只是针对LESS常用做了基础的简单介绍，更多的请参见官方网站文档：官方网站链接：<a href="http://www.1024i.com/demo/less/" target="_blank" rel="external">http://www.1024i.com/demo/less/</a></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>##less语法简介及使用方法</p>
-<p>###什么是<a href="http://www.1024i.com/demo/less/" target="_blank" rel="external">LESS</a><br>　　LESS是一种动态样式语言，属于CSS预处]]>
+    <![CDATA[<h2 id="less_u8BED_u6CD5_u7B80_u4ECB_u53CA_u4F7F_u7528_u65B9_u6CD5"><a href="#less_u8BED_u6CD5_u7B80_u4ECB_u53CA_u4F7F_u7528_u65B9_u6CD5" cl]]>
     </summary>
     
       <category term="Less" scheme="http://yoursite.com/tags/Less/"/>
@@ -69,8 +67,8 @@
     <link href="http://yoursite.com/2016/02/05/%E8%A7%A3%E5%86%B3CSS%E4%B8%ADheight%E8%AE%BE%E4%B8%BA%E7%99%BE%E5%88%86%E6%AF%94%E5%A6%82%E4%BD%95%E8%B5%B7%E6%95%88%E7%9A%84%E6%96%B9%E6%B3%95/"/>
     <id>http://yoursite.com/2016/02/05/解决CSS中height设为百分比如何起效的方法/</id>
     <published>2016-02-05T02:34:14.000Z</published>
-    <updated>2016-02-05T03:09:14.675Z</updated>
-    <content type="html"><![CDATA[<p>##如何设height:百分比；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在CSS中很多的时间为了实现页面的特定效果以及更多时间为了进行类响应式的布局，以达到在不同的屏幕下显示不同的效果，此时更多的会使用百分比的方式来操作。其中width设为百分比后，客户端会根据用户屏幕的实际宽度自动的进行计算，但是在设置height:**%;的方式来操作，但是页面并没有显示。解决该问题的方法很简单，就是给他的父元素也设置百分比的高度，直到html根元素设为：height:100%;代码如下：</p>
+    <updated>2016-02-14T09:58:13.179Z</updated>
+    <content type="html"><![CDATA[<h2 id="u5982_u4F55_u8BBEheight_3A_u767E_u5206_u6BD4_uFF1B"><a href="#u5982_u4F55_u8BBEheight_3A_u767E_u5206_u6BD4_uFF1B" class="headerlink" title="如何设height:百分比；"></a>如何设height:百分比；</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在CSS中很多的时间为了实现页面的特定效果以及更多时间为了进行类响应式的布局，以达到在不同的屏幕下显示不同的效果，此时更多的会使用百分比的方式来操作。其中width设为百分比后，客户端会根据用户屏幕的实际宽度自动的进行计算，但是在设置height:**%;的方式来操作，但是页面并没有显示。解决该问题的方法很简单，就是给他的父元素也设置百分比的高度，直到html根元素设为：height:100%;代码如下：</p>
 <pre><code>&lt;!DOCTYPE HTML&gt;
 &lt;html&gt;
     &lt;head&gt;
@@ -97,7 +95,7 @@
 </code></pre><p>以上只是一个我经常用到的小技巧，如果还有别的请留言交流。</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>##如何设height:百分比；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在CSS中很多的时间为了实现页面的特定效果以及更多时间为了进行类响应式的布局，以达到在不同的屏幕下显示不同的效果，此时更多的会使用百分比的方式来操作。其中width设为百分比]]>
+    <![CDATA[<h2 id="u5982_u4F55_u8BBEheight_3A_u767E_u5206_u6BD4_uFF1B"><a href="#u5982_u4F55_u8BBEheight_3A_u767E_u5206_u6BD4_uFF1B" class="headerlink"]]>
     </summary>
     
       <category term="css height" scheme="http://yoursite.com/tags/css-height/"/>
